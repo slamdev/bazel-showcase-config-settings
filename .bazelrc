@@ -3,3 +3,5 @@ build --verbose_failures
 build --build_manual_tests
 build --keep_going
 test --test_output=errors
+
+build --flag_alias=env=//:env
